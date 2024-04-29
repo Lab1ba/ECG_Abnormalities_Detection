@@ -44,8 +44,7 @@ graph points to csv, annotation for each record was also labelled with the help 
 annotation files. Once removed, these points can be stored in a structured format, like a CSV
 (Comma Separated Values) file. This format facilitates easy access, manipulation, and analysis of
 the data. The transition from ECG images to a CSV file transforms visual arrythmia signals into a
-structured dataset. The initial step in data preprocessing often involves filtering to address various sources of noise in ECG signals, such as power line interference and muscle artifacts. Digital filters, including high-pass, low-pass, band-pass, or notch filters, are commonly applied. High-
-pass filters eliminate low-frequency drift, while low-pass filters attenuate high-frequency noise.
+structured dataset. The initial step in data preprocessing often involves filtering to address various sources of noise in ECG signals, such as power line interference and muscle artifacts. Digital filters, including high-pass, low-pass, band-pass, or notch filters, are commonly applied. High-pass filters eliminate low-frequency drift, while low-pass filters attenuate high-frequency noise.
 
 Band-pass filters allow signals within a specific frequency range of interest, while notch filters
 target specific narrow frequency bands to remove unwanted interference. Following filtering, ECG
@@ -63,6 +62,14 @@ potentially data augmentation. These preprocessing techniques help mitigate nois
 data, and enhance the quality of ECG signals before classification. Appropriate data preprocessing
 significantly contributes to the accuracy and reliability of subsequent analysis and classification
 tasks in ECG abnormalities detection.
+
+![image](https://github.com/Lab1ba/ECG_Abnormalities_Detection/assets/100675446/d6bd0489-9bde-4df2-9246-e5979e318a88)
+
+![image](https://github.com/Lab1ba/ECG_Abnormalities_Detection/assets/100675446/cd0b5ddf-6b8f-4641-af20-ca0490d82c02)
+
+![image](https://github.com/Lab1ba/ECG_Abnormalities_Detection/assets/100675446/358ecb39-b6a2-45ff-9564-53400cf73eb4)
+
+![image](https://github.com/Lab1ba/ECG_Abnormalities_Detection/assets/100675446/11e3b171-7d14-4858-82c3-d3c4915f865c)
 
 # Proposed System
 
